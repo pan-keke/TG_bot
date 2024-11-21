@@ -23,7 +23,7 @@ router = Router()  # Используем маршрутизацию
 # Функция создания клавиатуры
 def create_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="Мой GitHub", url="https://github.com/pan-keke/TG_bot")],
+        [InlineKeyboardButton(text="Мой GitHub", url="https://github.com/pan-keke/tg_bot")],
         [InlineKeyboardButton(text="Получить аудиофайл", callback_data='get_audio')]
     ])
 
